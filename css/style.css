@@ -36,7 +36,6 @@
 /*header*/
 
 
-
 a {
     color: white;
     text-decoration: none;
@@ -94,6 +93,9 @@ a {
 
 h2 {
     font-size: 60px;
+}
+
+#main-title {
     text-align: center;
     color: white;
     padding: 10px 0;
@@ -159,6 +161,11 @@ h2 {
 
 /*main section2*/
 
+.white .row {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
 .white h2 {
     color: black;
     font-size: 48px;
@@ -167,7 +174,6 @@ h2 {
 
 .white p {
     font-size: 25px;
-    margin-bottom: 80px;
 }
 
 .white {
@@ -188,6 +194,20 @@ h2 {
 
 .grey {
     background-color: #D3D3D3;
+}
+
+.grey .row {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.grey p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.grey h2 {
+    margin-bottom: 20px;
 }
 
 /* main section4*/
