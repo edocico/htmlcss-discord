@@ -64,7 +64,7 @@ a {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -82,12 +82,10 @@ a {
 
 .col-3 {
     flex-basis: calc(100% / 4);
-    min-height: 40px;
 }
 
 .col-6 {
     flex-basis: calc(100% / 2);
-    min-height: 40px;
 }
 
 /*main*/
@@ -106,7 +104,7 @@ h2 {
 .blue p {
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     padding: 15px 0;
     margin-bottom: 30px;
 }
@@ -135,7 +133,7 @@ h2 {
 .blue {
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    min-height: 600px;
+    min-height: 540px;
     
 }
 
@@ -161,20 +159,29 @@ h2 {
 
 /*main section2*/
 
+.white h2 {
+    color: black;
+    font-size: 48px;
+    text-align: left;
+}
+
+.white p {
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
 .white {
     background-color: white;
 }
 
 .col-8 {
     flex-basis: calc((100% / 3)*2);
-    background-color: #1E90FF;
-    min-height: 150px;
+    
 }
 
 .col-4 {
     flex-basis: calc(100% / 3);
-    background-color: #FFC0CB;
-    min-height: 150px;
+    
 }
 
 /*main section3*/
