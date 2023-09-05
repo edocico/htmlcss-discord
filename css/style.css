@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* debug */
+
+.debug .page-header {
+    padding: 10px;
+    min-height: 100px;
+    background-color: skyblue;
+}
+
+.debug .row{
+    
+    border: 1px solid black;
+}
+
+.debug [class^='col-'] {
+    border: 1px dotted black;
+    
+    padding: 10px;
+}
+
+.debug .main-section {
+    min-height: 200px;
+    padding: 10px;
+    
+}
+
+.debug .main-section .row {
+    border: 1px solid black;
+}
+
+/*header*/
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.page-header .row {
+    display: flex;
+    background-color: #DAA520;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-3 {
+    flex-basis: calc(100% / 4);
+    min-height: 40px;
+}
+
+.col-6 {
+    flex-basis: calc(100% / 2);
+    min-height: 40px;
+}
+
+/*main*/
+
+/*main section1*/
+
+.blue {
+    background-color: #00108B;
+}
+
+.main-section .row {
+    display: flex;
+}
+
+.container-sm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.blue .container {
+    justify-content: center;
+    display: flex;
+    
+}
+
+.blue .col-12 {
+    min-height: 150px;
+    background-color: #EE82EE;
+    flex-basis: 100%;
+}
+
+/*main section2*/
+
+.white {
+    background-color: white;
+}
+
+.col-8 {
+    flex-basis: calc((100% / 3)*2);
+    background-color: #1E90FF;
+    min-height: 150px;
+}
+
+.col-4 {
+    flex-basis: calc(100% / 3);
+    background-color: #FFC0CB;
+    min-height: 150px;
+}
+
+/*main section3*/
+
+.grey {
+    background-color: #D3D3D3;
+}
+
+/* main section4*/
+
+/*main section5*/
+
+.grey .col-12 {
+    flex-basis: 100%;
+    min-height: 300px;
+    background-color: #228B22;
+}
+
+/*footer*/
+
+.footer-section {
+    background-color: #23272A;
+    min-height: 200px;
+    border-bottom: 3px solid #EEEEEE;
+}
+
+.footer-section .row {
+    display: flex;
+}
+
+.up .col-4 {
+    flex-basis: calc(100%/3);
+    background-color: #F08080;
+}
+
+.col-2 {
+    flex-basis: calc(100%/6);
+    background-color: #21B2AA;
+}
+
+.footer-section {
+    min-height: 60px;
+}
+
+.down .row {
+    justify-content: space-between;
+    background-color: #7FFFD4;
+}
+
+
+
+
+
