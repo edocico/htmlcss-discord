@@ -6,7 +6,7 @@
 
 /* debug */
 
-.debug .page-header {
+.debu .page-header {
     padding: 10px;
     min-height: 100px;
     background-color: skyblue;
@@ -35,6 +35,32 @@
 
 /*header*/
 
+h2 {
+    font-size: 48px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.page-header .log a {
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px solid #265EE9;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.page-header {
+    background-color: #265EE9;
+}
+
+.page-header .container {
+    padding-top: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 .container {
     max-width: 800px;
@@ -43,8 +69,8 @@
 
 .page-header .row {
     display: flex;
-    background-color: #DAA520;
 }
+
 
 .navbar-links {
     list-style: none;
@@ -67,7 +93,7 @@
 /*main section1*/
 
 .blue {
-    background-color: #00108B;
+    background-image: url("../img/jumbo.png");
 }
 
 .main-section .row {
