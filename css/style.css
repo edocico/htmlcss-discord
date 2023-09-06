@@ -184,6 +184,10 @@ h2 {
     background-color: white;
 }
 
+.white .col-8 {
+    padding-right: 50px;
+}
+
 .col-8 {
     flex-basis: calc((100% / 3)*2);
     
@@ -212,6 +216,10 @@ h2 {
 
 .grey h2 {
     margin-bottom: 20px;
+}
+
+.grey .col-8 {
+    padding-left: 50px;
 }
 
 /* main section4*/
